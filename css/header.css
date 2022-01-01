@@ -1,19 +1,12 @@
 header {
     background-color: var(--white);
     overflow: hidden;
-}
-
-.wrapper {
-    /* border: 1px solid red; */
-    padding-inline: 16px;
-    padding-block: 16px;
-    /* display: block; */
-    margin: 0 auto;
+    block-size: 72px;
+    box-sizing: border-box;
 }
 
 .section-header {
     /* border: 1px solid green; */
-    /* width: 328px; */
     display: flex;
     /* Safari */
     display: -webkit-flex;
@@ -92,7 +85,6 @@ header {
 
 .menu-view {
     box-sizing: border-box;
-    /* position: relative; */
     width: 100%;
     height: 100vh;
     background-color: var(--white);
@@ -114,4 +106,40 @@ header {
     cursor: pointer;
     display: block;
     /* border: 1px solid red; */
+}
+
+@media screen and (min-width:768px) {
+    header {
+        /* border: 3px solid red; */
+        block-size: 96px;
+    }
+    .li-visibility {
+        display: block;
+    }
+    .section-nav {
+        /* border: 1px solid blue; */
+        order: 0;
+        -webkit-order: 0;
+    }
+    .li-menu-view {
+        display: none;
+    }
+    .input-search {
+        inline-size: 251px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .section-nav-options {
+        gap: 48px;
+    }
+    .input-search {
+        inline-size: 392px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .input-search {
+        inline-size: 692px;
+    }
 }

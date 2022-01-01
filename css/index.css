@@ -27,5 +27,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    /* border: 2px solid red; */
+    padding-inline: 16px;
+    padding-block: 16px;
+    /* display: block; */
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1366px) {
+    .container {
+        width: 1366px;
+        margin: 0 auto;
+    }
 }

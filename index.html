@@ -15,21 +15,24 @@
 <body>
     <header>
         <div class="wrapper">
-            <div class="section-header">
-                <div class="section-nav">
-                    <ul class="section-nav-options">
-                        <li class="li-visibility"><img src="./icons/logo.png" alt="logo-icon"></li>
-                        <li class="li-visibility">Productos</li>
-                        <li class="li-visibility">Blog</li>
-                        <li class="li-visibility">Tienda</li>
-                        <li class="li-visibility">Contacto</li>
-                        <li><img src="./icons/shopping-cart.svg" alt="shopping-cart-icon"></li>
-                        <li id="btn-menu-view"><img class="menu-icon" src="./icons/menu.svg" alt="menu-icon"></li>
-                    </ul>
-                </div>
-                <div class="section-search">
-                    <input class="input-search" type="text" placeholder="Buscar Producto">
-                    <button class="button-search"><img src="./icons/Search.svg" alt="search-icon"></button>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-nav">
+                        <ul class="section-nav-options">
+                            <li class="li-visibility"><img src="./icons/logo.png" alt="logo-icon"></li>
+                            <li class="li-visibility">Productos</li>
+                            <li class="li-visibility">Blog</li>
+                            <li class="li-visibility">Tienda</li>
+                            <li class="li-visibility">Contacto</li>
+                            <li><img src="./icons/shopping-cart.svg" alt="shopping-cart-icon"></li>
+                            <li class="li-menu-view" id="btn-menu-view"><img class="menu-icon" src="./icons/menu.svg" alt="menu-icon">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section-search">
+                        <input class="input-search" type="text" placeholder="Buscar Producto">
+                        <button class="button-search"><img src="./icons/Search.svg" alt="search-icon"></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -46,6 +49,9 @@
             </ul>
         </div>
     </header>
+    <div>
+        <h1>hola</h1>
+    </div>
     <script>
         const btnMenuIcon = document.querySelector('#btn-menu-view')
         const btnMenuIconClose = document.querySelector('.btn-menu-view-close')
