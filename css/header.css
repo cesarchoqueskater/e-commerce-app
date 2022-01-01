@@ -69,6 +69,19 @@ header {
     align-items: center;
 }
 
+.menu-section-nav-options {
+    list-style: none;
+    font: var(--body-18regular);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+}
+
 .li-visibility {
     display: none;
 }
@@ -97,6 +110,8 @@ header {
 }
 
 .menu-close-option {
-    float: right;
+    text-align: right;
     cursor: pointer;
+    display: block;
+    /* border: 1px solid red; */
 }
