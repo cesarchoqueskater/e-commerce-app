@@ -1,0 +1,69 @@
+.banner-section {
+    background: var(--banner-bg);
+}
+
+.cards-banner {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    overflow: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-inline: 15px;
+    inline-size: 246px;
+    block-size: 128px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-promotion {
+    font: var(--subtitles-14bold);
+}
+
+.buy-promotion p {
+    font: var(--body-10regular_u);
+    text-decoration: underline;
+    margin-block-start: 15.61px;
+    margin-block-end: 0;
+}
+
+.bg-linear {
+    background: linear-gradient(105.15deg, #5465FF 0%, #B654EF 100%);
+}
+
+.bg-linear-two {
+    background: linear-gradient(105.15deg, #4E5AFF 0%, #5D8DFF 100%);
+}
+
+.card-image {
+    block-size: 81px;
+    inline-size: 88px;
+}
+
+@media screen and (min-width:768px) {
+    .card {
+        padding-inline: 41px;
+        block-size: 349px;
+        inline-size: 671px;
+    }
+    .card-image {
+        block-size: 274px;
+        inline-size: 279px;
+    }
+    .title-promotion {
+        font: var(--subtitles-32bold);
+    }
+    .buy-promotion p {
+        font: var(--body-18regular_u);
+    }
+}
