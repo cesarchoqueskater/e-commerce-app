@@ -1,0 +1,44 @@
+.details-content-product {
+    background: var(--white);
+    padding-inline: 16px;
+    padding-block: 16px;
+}
+
+.image-details-product {
+    text-align: center;
+}
+
+.image-details {
+    block-size: 194px;
+    inline-size: 280px;
+}
+
+.circle {
+    border-radius: 50%;
+    block-size: 11.2px;
+    inline-size: 11.2px;
+    background: var(--text);
+    display: inline-block;
+}
+
+.description-product {
+    font: var(--body-16regular);
+    color: var(--black);
+    margin-block-start: 0;
+    margin-block-end: 16px;
+}
+
+.circle-bg-grey {
+    background: var(--linerbg);
+}
+
+.characteristics-title,
+.comments-title {
+    font: var(--subtitles-22bold);
+    color: var(--text);
+}
+
+.characteristics-list {
+    font: var(--body-18regular);
+    color: var(--black);
+}
