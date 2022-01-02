@@ -1,6 +1,7 @@
 .title-section-products {
     font: var(--subtitles-32bold);
     color: var(--text);
+    margin-block: 16px;
 }
 
 .list-products {
@@ -96,6 +97,9 @@
 }
 
 @media screen and (min-width:1000px) {
+    .title-section-products {
+        margin-block: 24px;
+    }
     .article {
         /* border: 1px solid red; */
         flex-direction: row;
