@@ -321,12 +321,20 @@
         const btnMenuIcon = document.querySelector('#btn-menu-view')
         const btnMenuIconClose = document.querySelector('.btn-menu-view-close')
         const menuVisibility = document.querySelector('.menu-view')
+        const sections = document.querySelectorAll('section')
+
         btnMenuIcon.addEventListener('click', () => {
             menuVisibility.setAttribute('aria-selected', true)
+            sections.forEach((section, index) => {
+                section.hidden = true
+            })
         })
 
         btnMenuIconClose.addEventListener('click', () => {
             menuVisibility.removeAttribute('aria-selected')
+            sections.forEach((section, index) => {
+                section.hidden = false
+            })
         })
     </script>
 </body>

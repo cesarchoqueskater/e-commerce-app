@@ -33,6 +33,10 @@ header {
     padding-inline: 5px;
 }
 
+.input-search:focus {
+    outline: none
+}
+
 .button-search {
     border: none;
     background: var(--primary);
