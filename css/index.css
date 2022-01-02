@@ -1,8 +1,10 @@
 @import url('./header.css');
 @import url('./banner.css');
+@import url('./content-product.css');
 :root {
     --bgshade: #eeeffb;
     --greytext: #151875;
+    --grey: #B2B2B2;
     --primary: #fb2e86;
     --white: #ffffff;
     --banner-bg: #4853C2;
@@ -10,7 +12,7 @@
     --mintgreengradiant: linear-gradient(42deg, #36e6d5 0%, #29e871 100%);
     --text: #151875;
     --red: #fb2448;
-    --subtextcolor: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
+    --subtextcolor_gradient: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
     --subtextcolor: #8a8fb9;
     --bg: #ebebeb;
     --black: #111111;

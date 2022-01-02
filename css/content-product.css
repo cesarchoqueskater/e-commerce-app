@@ -1,0 +1,120 @@
+.title-section-products {
+    font: var(--subtitles-32bold);
+    color: var(--text);
+}
+
+.list-products {
+    /* border: 1px solid orange; */
+}
+
+.article {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-block-end: 24px;
+    padding-block: 16px;
+    padding-inline: 16px;
+}
+
+.img-article-product {
+    text-align: center;
+}
+
+.img-article {
+    block-size: 138px;
+    inline-size: 200px;
+}
+
+.title-article {
+    font: var(--subtitles-22bold);
+    color: var(--text);
+    margin: 0;
+}
+
+.price-score-article-product {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-block: 12px;
+}
+
+.price-ofert {
+    font: var(--body-18regular);
+    color: var(--text)
+}
+
+.price-ofert::before {
+    content: '$';
+}
+
+.price-real {
+    font: var(--body-18regular_u);
+    text-decoration: line-through;
+}
+
+.price-real::before {
+    content: '$';
+}
+
+.score-article span {
+    cursor: pointer;
+}
+
+.score-article span::before {
+    content: '★';
+    color: var(--grey);
+}
+
+.description-article {
+    font: var(--body-16regular);
+    color: var(--subtextcolor);
+    margin: 0;
+}
+
+.options-product {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn-product {
+    block-size: 48px;
+    font: var(--body-18regular);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+
+.btn-buy {
+    background: var(--primary);
+    color: var(--white)
+}
+
+.btn-add {
+    background: var(--white);
+    color: var(--primary);
+}
+
+@media screen and (min-width:1000px) {
+    .article {
+        /* border: 1px solid red; */
+        flex-direction: row;
+        gap: 32px;
+        padding-inline: 32px;
+    }
+    .img-article {
+        block-size: 217px;
+        inline-size: 313px;
+    }
+    .information-article-product {
+        inline-size: 729px;
+        /* border: 2px solid yellow; */
+    }
+    .options-product {
+        /* border: 1px solid blue; */
+        justify-content: center;
+    }
+    .btn-product {
+        inline-size: 212px;
+    }
+}
