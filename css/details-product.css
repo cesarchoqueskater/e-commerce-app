@@ -1,8 +1,10 @@
-.details-content-product {
+.all-details-product {
     background: var(--white);
     padding-inline: 16px;
     padding-block: 16px;
 }
+
+.content-details-product {}
 
 .image-details-product {
     text-align: center;
@@ -36,9 +38,40 @@
 .comments-title {
     font: var(--subtitles-22bold);
     color: var(--text);
+    margin-block-start: 48px;
+    margin-block-end: 24px;
 }
 
 .characteristics-list {
     font: var(--body-18regular);
     color: var(--black);
+}
+
+.writer-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    /* justify-content: center; */
+    gap: 8px;
+}
+
+.author-img {
+    block-size: 48px;
+    inline-size: 48px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+}
+
+.author-name {
+    font: var(--body-18semibold);
+    color: var(--black);
+    margin: 0;
+}
+
+.comment-writer-article {
+    font: var(--body-16regular);
+    color: var(--black);
+    margin-block-start: 8px;
+    margin-block-end: 24px;
 }
